@@ -1,6 +1,7 @@
 import React from 'react';
 
 const User = React.memo(function User({ user, onRemove, onToggle })  {
+// const User = ({ user, onRemove, onToggle }) => {
     console.log('User rendered');
     return (
         <div>
